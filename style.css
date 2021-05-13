@@ -1,0 +1,233 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-symbols {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: indigo;
+  width: 400px;
+  height: 30px;
+  color: #f5c02f;
+  justify-content: space-between;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  box-align: center;
+}
+
+.flex-symbols>div {
+  margin: 5px 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rebeccapurple;
+  width: 400px;
+  justify-content: space-between;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  box-align: center;
+}
+
+.flex-container>div {
+  width: 20px;
+  height: 30px;
+  margin: 1px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 15px;
+  display: flex;
+  padding: 5px;
+  margin: 3px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rebeccapurple;
+  width: 400px;
+  justify-content: space-between;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  box-align: center;
+}
+
+.flex-container-2>div {
+  width: 20px;
+  height: 30px;
+  margin: 1px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 15px;
+  display: flex;
+  padding: 5px;
+  margin: 3px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.flex-container-3 {
+  display: flex;
+  text-align: center;
+  width: 400px;
+  justify-content: flex-start;
+  background-color: rebeccapurple;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  box-align: center;
+}
+
+.flex-container-3>div {
+  width: 20px;
+  height: 30px;
+  margin: 4px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 15px;
+  display: flex;
+  padding: 5px;
+  margin: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.flex-container-3>div:last-child {
+  margin-left: 6px;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  box-shadow: 0 3px 3px -3px black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: indigo;
+  color: #f5c02f;
+  box-shadow: 0 3px 3px -3px black;
+}
+
+.flex-container-3>div:first-child {
+  margin-right: 6px;
+  align-items: center;
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  box-shadow: 0 3px 3px -3px black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: indigo;
+  box-shadow: 0 3px 3px -3px black;
+}
+
+.flex-container-4 {
+  display: flex;
+  text-align: center;
+  width: 400px;
+  justify-content: flex-start;
+  background-color: rebeccapurple;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  box-align: center;
+}
+
+.flex-container-4>div {
+  background-color: indigo;
+  width: 20px;
+  height: 30px;
+  margin: 1px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 15px;
+  display: flex;
+  padding: 5px;
+  margin: 3px;
+  justify-content: center;
+  color: #f5c02f;
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  box-shadow: 0 3px 3px -3px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.flex-container-4>div:nth-child(3) {
+  background: #f5c02f;
+  color: purple;
+  align-items: center;
+  box-shadow: 0 3px 3px -3px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.keyboard-input {
+  width: 390px;
+  background-color: rgb(241, 241, 241);
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.is-active {
+  transform: translateY(-20px);
+  background: #f5c02f;
+  color: purple;
+  box-shadow: 0 25px 0 -3px #f5c02f;
+}
+
+.letter {
+  background-color: indigo;
+  color: #f5c02f;
+  box-shadow: 0 3px 3px -3px black;
+}
+
+.flex-container-4 > div:active { transform:translateY(-3px); background:#f5c02f; color: purple; box-shadow:0 3px 0 #f5c02f;}
+.flex-container-3>div:last-child:active { transform:translateY(-3px); background:#f5c02f; color: purple; box-shadow:0 3px 0 #f5c02f;}
+.flex-container-3>div:first-child:active { transform:translateY(-3px); background:#f5c02f; color: purple; box-shadow:0 3px 0 #f5c02f;}
